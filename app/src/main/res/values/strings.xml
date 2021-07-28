@@ -2,4 +2,5 @@
     <string name="app_name">TDD</string>
     <string name="title">TDD</string>
     <string name="sub_title">To Day Diary</string>
+    <string name="month">Month</string>
 </resources>

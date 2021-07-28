@@ -18,7 +18,16 @@
 
     <View
         android:layout_gravity="center"
-        android:layout_width="160dp"
+        android:layout_width="170dp"
         android:layout_height="2px"
+        android:layout_marginTop="5dp"
         android:background="#000000"/>
+
+    <View
+        android:id="@+id/background"
+        android:background="#FF9B9B"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="370dp"
+        android:layout_height="615dp"/>
 </LinearLayout>

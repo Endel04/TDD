@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".January">
+
+    <TextView
+        android:id="@+id/month"
+        android:textSize="48sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="January"/>
+
+    <View
+        android:layout_gravity="center"
+        android:layout_width="220dp"
+        android:layout_height="2px"
+        android:layout_marginTop="5dp"
+        android:background="#000000"/>
+
+    <View
+        android:id="@+id/background"
+        android:layout_width="370dp"
+        android:layout_height="615dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#EC8F8F"/>
+</LinearLayout>

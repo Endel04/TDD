@@ -1,31 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@drawable/main_background"
     tools:context=".MainActivity">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_centerInParent="true"
+        android:id="@+id/triangle"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/triangle"/>
 
     <TextView
+        android:layout_centerInParent="true"
         android:id="@+id/title"
-        android:gravity="center"
         android:textSize="70sp"
-        android:layout_marginTop="270dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:padding="0dp"
+        android:layout_above="@id/sub_title"
         android:text="@string/title"/>
 
     <TextView
+        android:layout_centerInParent="true"
         android:id="@+id/sub_title"
-        android:gravity="center"
         android:textSize="20sp"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/sub_title"/>
-</LinearLayout>
+</RelativeLayout>

@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class PickMonthActivity extends AppCompatActivity {
-    Button btn_1, btn_2, btn_3, btn_4, btn_5, btn_6, btn_7, btn_8, btn_9, btn_10, btn_11, btn_12;
+    Button january, february, march, april, may, june, july, august, september, october, november, december;
     Intent intent;
 
     @Override
@@ -16,20 +16,20 @@ public class PickMonthActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pick_month);
 
-        btn_1 = findViewById(R.id.btn_1);
-        btn_2 = findViewById(R.id.btn_2);
-        btn_3 = findViewById(R.id.btn_3);
-        btn_4 = findViewById(R.id.btn_4);
-        btn_5 = findViewById(R.id.btn_5);
-        btn_6 = findViewById(R.id.btn_6);
-        btn_7 = findViewById(R.id.btn_7);
-        btn_8 = findViewById(R.id.btn_8);
-        btn_9 = findViewById(R.id.btn_9);
-        btn_10 = findViewById(R.id.btn_10);
-        btn_11 = findViewById(R.id.btn_11);
-        btn_12 = findViewById(R.id.btn_12);
+        january = findViewById(R.id.btn_1);
+        february = findViewById(R.id.btn_2);
+        march = findViewById(R.id.btn_3);
+        april = findViewById(R.id.btn_4);
+        may = findViewById(R.id.btn_5);
+        june = findViewById(R.id.btn_6);
+        july = findViewById(R.id.btn_7);
+        august = findViewById(R.id.btn_8);
+        september = findViewById(R.id.btn_9);
+        october = findViewById(R.id.btn_10);
+        november = findViewById(R.id.btn_11);
+        december = findViewById(R.id.btn_12);
 
-        btn_1.setOnClickListener(new View.OnClickListener() {
+        january.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 intent = new Intent(getApplicationContext(), January.class);
@@ -37,7 +37,7 @@ public class PickMonthActivity extends AppCompatActivity {
             }
         });
 
-        btn_2.setOnClickListener(new View.OnClickListener() {
+        february.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 intent = new Intent(getApplicationContext(), February.class);
@@ -45,7 +45,7 @@ public class PickMonthActivity extends AppCompatActivity {
             }
         });
 
-        btn_3.setOnClickListener(new View.OnClickListener() {
+        march.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 intent = new Intent(getApplicationContext(), March.class);
@@ -53,7 +53,7 @@ public class PickMonthActivity extends AppCompatActivity {
             }
         });
 
-        btn_4.setOnClickListener(new View.OnClickListener() {
+        april.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 intent = new Intent(getApplicationContext(), April.class);
@@ -61,7 +61,7 @@ public class PickMonthActivity extends AppCompatActivity {
             }
         });
 
-        btn_5.setOnClickListener(new View.OnClickListener() {
+        may.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 intent = new Intent(getApplicationContext(), May.class);
@@ -69,7 +69,7 @@ public class PickMonthActivity extends AppCompatActivity {
             }
         });
 
-        btn_6.setOnClickListener(new View.OnClickListener() {
+        june.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 intent = new Intent(getApplicationContext(), June.class);
@@ -77,7 +77,7 @@ public class PickMonthActivity extends AppCompatActivity {
             }
         });
 
-        btn_7.setOnClickListener(new View.OnClickListener() {
+        july.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 intent = new Intent(getApplicationContext(), July.class);
@@ -85,7 +85,7 @@ public class PickMonthActivity extends AppCompatActivity {
             }
         });
 
-        btn_8.setOnClickListener(new View.OnClickListener() {
+        august.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 intent = new Intent(getApplicationContext(), August.class);
@@ -93,7 +93,7 @@ public class PickMonthActivity extends AppCompatActivity {
             }
         });
 
-        btn_9.setOnClickListener(new View.OnClickListener() {
+        september.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 intent = new Intent(getApplicationContext(), September.class);
@@ -101,7 +101,7 @@ public class PickMonthActivity extends AppCompatActivity {
             }
         });
 
-        btn_10.setOnClickListener(new View.OnClickListener() {
+        october.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 intent = new Intent(getApplicationContext(), October.class);
@@ -109,7 +109,7 @@ public class PickMonthActivity extends AppCompatActivity {
             }
         });
 
-        btn_11.setOnClickListener(new View.OnClickListener() {
+        november.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 intent = new Intent(getApplicationContext(), November.class);
@@ -117,7 +117,7 @@ public class PickMonthActivity extends AppCompatActivity {
             }
         });
 
-        btn_12.setOnClickListener(new View.OnClickListener() {
+        december.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 intent = new Intent(getApplicationContext(), December.class);

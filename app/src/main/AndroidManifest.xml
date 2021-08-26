@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TDD">
-        <activity android:name=".December"></activity>
+        <activity android:name=".January1"></activity>
+        <activity android:name=".December" />
         <activity android:name=".November" />
         <activity android:name=".October" />
         <activity android:name=".September" />
@@ -22,7 +23,7 @@
         <activity android:name=".February" />
         <activity android:name=".January" />
         <activity android:name=".PickMonthActivity" />
-        <activity android:name=".AppCompatActivity" />
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

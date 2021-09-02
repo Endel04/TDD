@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:background="@drawable/background"
     tools:context=".January1">
-    
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="70dp">
@@ -28,7 +28,7 @@
             android:layout_gravity="center"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="   1"/>
+            android:text="   2"/>
 
         <Button
             android:id="@+id/save_button"
@@ -74,7 +74,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_width="100dp"
                 android:layout_height="20dp"
-                android:text="2022.01.01"/>
+                android:text="2022.01.02"/>
 
             <View
                 android:layout_width="match_parent"

@@ -18,6 +18,8 @@ public class January1 extends AppCompatActivity {
         btnBack = findViewById(R.id.back_button);
         btnSave = findViewById(R.id.save_button);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -32,7 +34,6 @@ public class January1 extends AppCompatActivity {
             }
         });
     }
-
     public void backActivity() {
         Intent intent = new Intent(this, January.class);
         startActivity(intent);

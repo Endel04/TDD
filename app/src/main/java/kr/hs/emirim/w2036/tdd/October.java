@@ -11,6 +11,7 @@ public class October extends AppCompatActivity {
     Button btn_date_1, btn_date_2, btn_date_3, btn_date_4, btn_date_5, btn_date_6, btn_date_7, btn_date_8, btn_date_9, btn_date_10;
     Button btn_date_11, btn_date_12, btn_date_13, btn_date_14, btn_date_15, btn_date_16, btn_date_17, btn_date_18, btn_date_19, btn_date_20;
     Button btn_date_21, btn_date_22, btn_date_23, btn_date_24, btn_date_25, btn_date_26, btn_date_27, btn_date_28, btn_date_29, btn_date_30, btn_date_31;
+    Button btnBack;
     Intent intent;
 
     @Override
@@ -49,6 +50,16 @@ public class October extends AppCompatActivity {
         btn_date_29 = findViewById(R.id.btn_date_29);
         btn_date_30 = findViewById(R.id.btn_date_30);
         btn_date_31 = findViewById(R.id.btn_date_31);
+        btnBack = findViewById(R.id.back_button);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        btnBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                backActivity();
+            }
+        });
 
         btn_date_1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -297,5 +308,9 @@ public class October extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+    public void backActivity() {
+        Intent intent = new Intent(this, PickMonthActivity.class);
+        startActivity(intent);
     }
 }

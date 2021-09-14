@@ -12,23 +12,17 @@
         android:id="@+id/month"
         android:textSize="50sp"
         android:gravity="center"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/month"/>
-
-    <View
-        android:layout_gravity="center"
-        android:layout_width="170dp"
-        android:layout_height="2px"
-        android:layout_marginTop="5dp"
-        android:background="#000000"/>
 
     <FrameLayout
         android:layout_gravity="center"
         android:background="#EC8F8F"
         android:layout_marginTop="20dp"
         android:layout_width="370dp"
-        android:layout_height="615dp">
+        android:layout_height="612dp">
 
         <GridLayout
             android:layout_marginTop="105dp"
